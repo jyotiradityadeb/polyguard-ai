@@ -1,0 +1,106 @@
+generator client {
+ provider = "prisma-client-js"
+}
+datasource db {
+ provider = "sqlite"
+ url = env("DATABASE_URL")
+}
+model Entity {
+ id String @id
+ name String
+ kind String
+ scientificName String?
+ category String
+ aliases Alias[]
+ ingredients ProductIngredient[] @relation("Product")
+ memberOf ProductIngredient[] @relation("Ingredient")
+}
+model Alias {
+ id Int @id @default(autoincrement())
+ value String
+ entityId String
+ entity Entity @relation(fields:[entityId],references:[id],onDelete:Cascade)
+ @@unique([entityId,value])
+}
+model ProductIngredient {
+ productId String
+ herbId String
+ product Entity @relation("Product",fields:[productId],references:[id],onDelete:Cascade)
+ herb Entity @relation("Ingredient",fields:[herbId],references:[id])
+ @@id([productId,herbId])
+}
+model Pathway {
+ id String @id
+ name String
+ type String
+}
+model Phytochemical {
+ id String @id
+ name String
+ externalIds String
+}
+model InteractionEvidence {
+ id String @id
+ herbId String
+ drugId String
+ pathwayId String?
+ phytochemicalId String?
+ interactionType String
+ potentialConcern String
+ evidenceGrade String
+ studyType String
+ summary String
+ notes String
+ validated Boolean @default(false)
+ isDemo Boolean @default(true)
+ sourceTitle String?
+ publicationYear Int?
+ pmid String?
+ doi String?
+ sourceUrl String?
+ links EvidenceLink[]
+ @@index([herbId,drugId])
+}
+model EvidenceLink {
+ id String @id
+ source String
+ target String
+ relationship String
+ evidenceId String
+ evidence InteractionEvidence @relation(fields:[evidenceId],references:[id],onDelete:Cascade)
+ @@index([source,target])
+}
+
+// Additive research layer; original Checkpoint C fixtures stay intact.
+model ResearchSource {
+ id String @id
+ sourceName String
+ sourceRecordId String
+ sourceUrl String
+ retrievedAt String
+ payload String
+ records ResearchRecord[]
+}
+model ResearchRecord {
+ id String @id
+ sourceId String
+ source ResearchSource @relation(fields:[sourceId],references:[id])
+ status String @default("REVIEW_PENDING")
+ predicate String
+ payload String
+ revision Int @default(0)
+ reviews ResearchReview[]
+ @@index([status,predicate])
+}
+model ResearchReview {
+ id Int @id @default(autoincrement())
+ recordId String
+ record ResearchRecord @relation(fields:[recordId],references:[id])
+ fromStatus String
+ toStatus String
+ reviewer String
+ reviewedAt String
+ notes String
+ revision Int
+ @@unique([recordId,revision])
+}

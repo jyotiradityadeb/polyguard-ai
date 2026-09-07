@@ -1,0 +1,248 @@
+[
+  {
+    "id": "pubmed-15801937",
+    "source": {
+      "id": "PubMed:15801937",
+      "sourceName": "PubMed",
+      "sourceRecordId": "15801937",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15801937/",
+      "retrievedAt": "2026-09-07T19:04:06.926Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects.",
+      "authors": [
+        "Xuemin Jiang",
+        "Kenneth M Williams",
+        "Winston S Liauw",
+        "Alaina J Ammit",
+        "Basil D Roufogalis",
+        "Colin C Duke",
+        "Richard O Day",
+        "Andrew J McLachlan"
+      ],
+      "journal": "British journal of clinical pharmacology",
+      "publicationYear": 2005,
+      "pmid": "15801937",
+      "doi": "10.1111/j.1365-2125.2005.02322.x",
+      "contentHash": "5deae0610dab7a77b7b329b55d77fc4b0cbaea8c4b4e0baf3f93e977d1968e47"
+    },
+    "subject": {
+      "id": "publication:15801937",
+      "label": "Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:15801937",
+      "label": "PubMed 15801937",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "pubmed-17468862",
+    "source": {
+      "id": "PubMed:17468862",
+      "sourceName": "PubMed",
+      "sourceRecordId": "17468862",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/17468862/",
+      "retrievedAt": "2026-09-07T19:04:06.934Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Unexpected effect of concomitantly administered curcumin on the pharmacokinetics of talinolol in healthy Chinese volunteers.",
+      "authors": [
+        "He Juan",
+        "Bernd Terhaag",
+        "Zang Cong",
+        "Zhang Bi-Kui",
+        "Zhu Rong-Hua",
+        "Wang Feng",
+        "Su Fen-Li",
+        "Song Juan",
+        "Tang Jing",
+        "Peng Wen-Xing"
+      ],
+      "journal": "European journal of clinical pharmacology",
+      "publicationYear": 2007,
+      "pmid": "17468862",
+      "doi": "10.1007/s00228-007-0298-0",
+      "contentHash": "a9d173bd92a1eb9d7d958ffb5de6d89464109f1e8ccdb5ae31fe2e2a229e6582"
+    },
+    "subject": {
+      "id": "publication:17468862",
+      "label": "Unexpected effect of concomitantly administered curcumin on the pharmacokinetics of talinolol in healthy Chinese volunteers.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:17468862",
+      "label": "PubMed 17468862",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "pubmed-11740713",
+    "source": {
+      "id": "PubMed:11740713",
+      "sourceName": "PubMed",
+      "sourceRecordId": "11740713",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11740713/",
+      "retrievedAt": "2026-09-07T19:04:06.934Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "The effect of garlic supplements on the pharmacokinetics of saquinavir.",
+      "authors": [
+        "Stephen C Piscitelli",
+        "Aaron H Burstein",
+        "Nada Welden",
+        "Keith D Gallicano",
+        "Judith Falloon"
+      ],
+      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "publicationYear": 2002,
+      "pmid": "11740713",
+      "doi": "10.1086/324351",
+      "contentHash": "e95464e4a33bc9325d25f6438fe25ff832d6f75c568dcfb0cf4994c1edd0fab2"
+    },
+    "subject": {
+      "id": "publication:11740713",
+      "label": "The effect of garlic supplements on the pharmacokinetics of saquinavir.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:11740713",
+      "label": "PubMed 11740713",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "pubmed-28774812",
+    "source": {
+      "id": "PubMed:28774812",
+      "sourceName": "PubMed",
+      "sourceRecordId": "28774812",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28774812/",
+      "retrievedAt": "2026-09-07T19:04:06.934Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Cytochrome P450 inhibition by three licorice species and fourteen licorice constituents.",
+      "authors": [
+        "Guannan Li",
+        "Charlotte Simmler",
+        "Luying Chen",
+        "Dejan Nikolic",
+        "Shao-Nong Chen",
+        "Guido F Pauli",
+        "Richard B van Breemen"
+      ],
+      "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+      "publicationYear": 2017,
+      "pmid": "28774812",
+      "doi": "10.1016/j.ejps.2017.07.034",
+      "contentHash": "1d807c76d7da31385c6a32ebfe0cc8f1c072893ef918ea848b1cd47bf8879976"
+    },
+    "subject": {
+      "id": "publication:28774812",
+      "label": "Cytochrome P450 inhibition by three licorice species and fourteen licorice constituents.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:28774812",
+      "label": "PubMed 28774812",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "pubmed-20393696",
+    "source": {
+      "id": "PubMed:20393696",
+      "sourceName": "PubMed",
+      "sourceRecordId": "20393696",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20393696/",
+      "retrievedAt": "2026-09-07T19:04:06.935Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Effect of glycyrrhizin on the activity of CYP3A enzyme in humans.",
+      "authors": [
+        "Jiang-Hua Tu",
+        "Yi-Jing He",
+        "Yao Chen",
+        "Lan Fan",
+        "Wei Zhang",
+        "Zhi-Rong Tan",
+        "Yuan-Fei Huang",
+        "Dong Guo",
+        "Dong-Li Hu",
+        "Dan Wang",
+        "Hong-Hao Zhou"
+      ],
+      "journal": "European journal of clinical pharmacology",
+      "publicationYear": 2010,
+      "pmid": "20393696",
+      "doi": "10.1007/s00228-010-0814-5",
+      "contentHash": "d20b77ebda25e940417bcbf3da3fa8eb532ab5814dd64446dc1d30989cb5fd5d"
+    },
+    "subject": {
+      "id": "publication:20393696",
+      "label": "Effect of glycyrrhizin on the activity of CYP3A enzyme in humans.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:20393696",
+      "label": "PubMed 20393696",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  }
+]

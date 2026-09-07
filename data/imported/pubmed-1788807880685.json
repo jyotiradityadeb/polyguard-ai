@@ -1,0 +1,144 @@
+[
+  {
+    "id": "pubmed-16883626",
+    "source": {
+      "id": "PubMed:16883626",
+      "sourceName": "PubMed",
+      "sourceRecordId": "16883626",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16883626/",
+      "retrievedAt": "2026-09-07T19:04:40.679Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Synergistic effect of ginger and nifedipine on human platelet aggregation: a study in hypertensive patients and normal volunteers.",
+      "authors": [
+        "Haw-Yaw Young",
+        "Jung-Chun Liao",
+        "Yuan-Shiun Chang",
+        "Yen-Lin Luo",
+        "Ming-Chin Lu",
+        "Wen-Huang Peng"
+      ],
+      "journal": "The American journal of Chinese medicine",
+      "publicationYear": 2006,
+      "pmid": "16883626",
+      "doi": "10.1142/S0192415X06004089",
+      "contentHash": "d76411cb7a8aa5c6a903f8b7a6e650e70b3ca02181340d1c91f19e3e08faf2b2"
+    },
+    "subject": {
+      "id": "publication:16883626",
+      "label": "Synergistic effect of ginger and nifedipine on human platelet aggregation: a study in hypertensive patients and normal volunteers.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:16883626",
+      "label": "PubMed 16883626",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "pubmed-12891227",
+    "source": {
+      "id": "PubMed:12891227",
+      "sourceName": "PubMed",
+      "sourceRecordId": "12891227",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12891227/",
+      "retrievedAt": "2026-09-07T19:04:40.684Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers.",
+      "authors": [
+        "John S Markowitz",
+        "C Lindsay Devane",
+        "Kenneth D Chavin",
+        "Robin M Taylor",
+        "Ying Ruan",
+        "Jennifer L Donovan"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "publicationYear": 2003,
+      "pmid": "12891227",
+      "doi": "10.1016/S0009-9236(03)00148-6",
+      "contentHash": "53f3f39755b7c482dfb7b988699ebc2e7c1c44136abc58aec0ab0177709f13cf"
+    },
+    "subject": {
+      "id": "publication:12891227",
+      "label": "Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:12891227",
+      "label": "PubMed 12891227",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "pubmed-15974642",
+    "source": {
+      "id": "PubMed:15974642",
+      "sourceName": "PubMed",
+      "sourceRecordId": "15974642",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15974642/",
+      "retrievedAt": "2026-09-07T19:04:40.685Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch XML",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Clinical assessment of effects of botanical supplementation on cytochrome P450 phenotypes in the elderly: St John's wort, garlic oil, Panax ginseng and Ginkgo biloba.",
+      "authors": [
+        "Bill J Gurley",
+        "Stephanie F Gardner",
+        "Martha A Hubbard",
+        "D Keith Williams",
+        "W Brooks Gentry",
+        "Yanyan Cui",
+        "Catharina Y W Ang"
+      ],
+      "journal": "Drugs &amp; aging",
+      "publicationYear": 2005,
+      "pmid": "15974642",
+      "doi": "10.2165/00002512-200522060-00006",
+      "contentHash": "37d6e87549f1860bce3ef2248823b30098811837bf881e798176be2390275890"
+    },
+    "subject": {
+      "id": "publication:15974642",
+      "label": "Clinical assessment of effects of botanical supplementation on cytochrome P450 phenotypes in the elderly: St John's wort, garlic oil, Panax ginseng and Ginkgo biloba.",
+      "kind": "evidence",
+      "identifiers": {}
+    },
+    "predicate": "LITERATURE_CANDIDATE",
+    "object": {
+      "id": "source:pubmed:15974642",
+      "label": "PubMed 15974642",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Retrieved literature candidate. No relationship or evidence grade has been inferred from indexing or publication type.",
+    "limitations": "A PubMed entry is not validation of a drug interaction. Review the study, preparation, population, findings, and applicability.",
+    "timingRelevant": false,
+    "revision": 0
+  }
+]

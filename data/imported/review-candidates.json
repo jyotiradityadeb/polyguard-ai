@@ -1,0 +1,628 @@
+[
+  {
+    "id": "candidate-11740713-garlic-saquinavir",
+    "source": {
+      "id": "PubMed:11740713",
+      "sourceName": "PubMed",
+      "sourceRecordId": "11740713",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11740713/",
+      "retrievedAt": "2026-09-07T19:04:06.934Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "The effect of garlic supplements on the pharmacokinetics of saquinavir.",
+      "authors": [
+        "Stephen C Piscitelli",
+        "Aaron H Burstein",
+        "Nada Welden",
+        "Keith D Gallicano",
+        "Judith Falloon"
+      ],
+      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "publicationYear": 2002,
+      "pmid": "11740713",
+      "doi": "10.1086/324351",
+      "contentHash": "e95464e4a33bc9325d25f6438fe25ff832d6f75c568dcfb0cf4994c1edd0fab2"
+    },
+    "subject": {
+      "id": "garlic",
+      "label": "Garlic",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "saquinavir",
+      "label": "Saquinavir",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "A small healthy-volunteer study reported reduced saquinavir exposure during garlic-caplet use. The preparation-specific observation does not identify a proven causal pathway.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "garlic",
+      "drugId": "saquinavir",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "SIGNAL",
+      "preparation": "Garlic caplets with the studied Fortovase saquinavir formulation"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-15801937-ginger-warfarin",
+    "source": {
+      "id": "PubMed:15801937",
+      "sourceName": "PubMed",
+      "sourceRecordId": "15801937",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15801937/",
+      "retrievedAt": "2026-09-07T19:04:06.926Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Effect of ginkgo and ginger on the pharmacokinetics and pharmacodynamics of warfarin in healthy subjects.",
+      "authors": [
+        "Xuemin Jiang",
+        "Kenneth M Williams",
+        "Winston S Liauw",
+        "Alaina J Ammit",
+        "Basil D Roufogalis",
+        "Colin C Duke",
+        "Richard O Day",
+        "Andrew J McLachlan"
+      ],
+      "journal": "British journal of clinical pharmacology",
+      "publicationYear": 2005,
+      "pmid": "15801937",
+      "doi": "10.1111/j.1365-2125.2005.02322.x",
+      "contentHash": "5deae0610dab7a77b7b329b55d77fc4b0cbaea8c4b4e0baf3f93e977d1968e47"
+    },
+    "subject": {
+      "id": "ginger",
+      "label": "Ginger",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "warfarin",
+      "label": "Warfarin",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The crossover study did not detect a significant effect of its ginger product on warfarin pharmacokinetics or pharmacodynamics. This is a null-effect observation, not a safety guarantee.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "ginger",
+      "drugId": "warfarin",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "NO_DETECTED_EFFECT",
+      "preparation": "Ginger product of known quality used in the cited healthy-volunteer trial"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-16883626-ginger-nifedipine",
+    "source": {
+      "id": "PubMed:16883626",
+      "sourceName": "PubMed",
+      "sourceRecordId": "16883626",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16883626/",
+      "retrievedAt": "2026-09-07T19:04:40.679Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Synergistic effect of ginger and nifedipine on human platelet aggregation: a study in hypertensive patients and normal volunteers.",
+      "authors": [
+        "Haw-Yaw Young",
+        "Jung-Chun Liao",
+        "Yuan-Shiun Chang",
+        "Yen-Lin Luo",
+        "Ming-Chin Lu",
+        "Wen-Huang Peng"
+      ],
+      "journal": "The American journal of Chinese medicine",
+      "publicationYear": 2006,
+      "pmid": "16883626",
+      "doi": "10.1142/S0192415X06004089",
+      "contentHash": "d76411cb7a8aa5c6a903f8b7a6e650e70b3ca02181340d1c91f19e3e08faf2b2"
+    },
+    "subject": {
+      "id": "ginger",
+      "label": "Ginger",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "nifedipine",
+      "label": "Nifedipine",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The study reported enhanced inhibition of platelet aggregation with ginger and nifedipine. The measured endpoint is not a quantified clinical bleeding outcome.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "ginger",
+      "drugId": "nifedipine",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "SIGNAL",
+      "preparation": "Ginger preparation and nifedipine studied in volunteers and hypertensive participants"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-12891227-garlic-alprazolam",
+    "source": {
+      "id": "PubMed:12891227",
+      "sourceName": "PubMed",
+      "sourceRecordId": "12891227",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12891227/",
+      "retrievedAt": "2026-09-07T19:04:40.684Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers.",
+      "authors": [
+        "John S Markowitz",
+        "C Lindsay Devane",
+        "Kenneth D Chavin",
+        "Robin M Taylor",
+        "Ying Ruan",
+        "Jennifer L Donovan"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "publicationYear": 2003,
+      "pmid": "12891227",
+      "doi": "10.1016/S0009-9236(03)00148-6",
+      "contentHash": "53f3f39755b7c482dfb7b988699ebc2e7c1c44136abc58aec0ab0177709f13cf"
+    },
+    "subject": {
+      "id": "garlic",
+      "label": "Garlic",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "alprazolam",
+      "label": "Alprazolam",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The study found no significant change in alprazolam pharmacokinetic parameters after the tested garlic extract.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "garlic",
+      "drugId": "alprazolam",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "NO_DETECTED_EFFECT",
+      "preparation": "Garlic extract in the cited 14-day healthy-volunteer study"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-12891227-garlic-dextromethorphan",
+    "source": {
+      "id": "PubMed:12891227",
+      "sourceName": "PubMed",
+      "sourceRecordId": "12891227",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12891227/",
+      "retrievedAt": "2026-09-07T19:04:40.684Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers.",
+      "authors": [
+        "John S Markowitz",
+        "C Lindsay Devane",
+        "Kenneth D Chavin",
+        "Robin M Taylor",
+        "Ying Ruan",
+        "Jennifer L Donovan"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "publicationYear": 2003,
+      "pmid": "12891227",
+      "doi": "10.1016/S0009-9236(03)00148-6",
+      "contentHash": "53f3f39755b7c482dfb7b988699ebc2e7c1c44136abc58aec0ab0177709f13cf"
+    },
+    "subject": {
+      "id": "garlic",
+      "label": "Garlic",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "dextromethorphan",
+      "label": "Dextromethorphan",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The study found no significant change in the urinary dextromethorphan metabolic ratio after the tested garlic extract.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "garlic",
+      "drugId": "dextromethorphan",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "NO_DETECTED_EFFECT",
+      "preparation": "Garlic extract and CYP2D6 probe used in the cited study"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-15974642-garlic-chlorzoxazone",
+    "source": {
+      "id": "PubMed:15974642",
+      "sourceName": "PubMed",
+      "sourceRecordId": "15974642",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15974642/",
+      "retrievedAt": "2026-09-07T19:04:40.685Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Clinical assessment of effects of botanical supplementation on cytochrome P450 phenotypes in the elderly: St John's wort, garlic oil, Panax ginseng and Ginkgo biloba.",
+      "authors": [
+        "Bill J Gurley",
+        "Stephanie F Gardner",
+        "Martha A Hubbard",
+        "D Keith Williams",
+        "W Brooks Gentry",
+        "Yanyan Cui",
+        "Catharina Y W Ang"
+      ],
+      "journal": "Drugs &amp; aging",
+      "publicationYear": 2005,
+      "pmid": "15974642",
+      "doi": "10.2165/00002512-200522060-00006",
+      "contentHash": "37d6e87549f1860bce3ef2248823b30098811837bf881e798176be2390275890"
+    },
+    "subject": {
+      "id": "garlic",
+      "label": "Garlic",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "chlorzoxazone",
+      "label": "Chlorzoxazone",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The study reported reduced CYP2E1 phenotypic activity with garlic oil, measured using a chlorzoxazone metabolic ratio. It did not establish individual clinical harm.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "garlic",
+      "drugId": "chlorzoxazone",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "SIGNAL",
+      "preparation": "Garlic oil; single-timepoint probe ratio in a small elderly-volunteer crossover study"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-15974642-garlic-caffeine",
+    "source": {
+      "id": "PubMed:15974642",
+      "sourceName": "PubMed",
+      "sourceRecordId": "15974642",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15974642/",
+      "retrievedAt": "2026-09-07T19:04:40.685Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Clinical assessment of effects of botanical supplementation on cytochrome P450 phenotypes in the elderly: St John's wort, garlic oil, Panax ginseng and Ginkgo biloba.",
+      "authors": [
+        "Bill J Gurley",
+        "Stephanie F Gardner",
+        "Martha A Hubbard",
+        "D Keith Williams",
+        "W Brooks Gentry",
+        "Yanyan Cui",
+        "Catharina Y W Ang"
+      ],
+      "journal": "Drugs &amp; aging",
+      "publicationYear": 2005,
+      "pmid": "15974642",
+      "doi": "10.2165/00002512-200522060-00006",
+      "contentHash": "37d6e87549f1860bce3ef2248823b30098811837bf881e798176be2390275890"
+    },
+    "subject": {
+      "id": "garlic",
+      "label": "Garlic",
+      "kind": "herb",
+      "identifiers": {}
+    },
+    "predicate": "HERB_DRUG_INTERACTION",
+    "object": {
+      "id": "caffeine",
+      "label": "Caffeine",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The tested botanical supplements did not appear to affect CYP1A2 phenotypic activity measured with caffeine. This does not establish general safety.",
+    "limitations": "Candidate interpretation from the cited study, not yet reviewed by a researcher. Findings are limited to the studied preparation, population, and endpoints; do not generalize to an individual.",
+    "interaction": {
+      "herbId": "garlic",
+      "drugId": "caffeine",
+      "potentialConcern": "UNKNOWN",
+      "outcome": "NO_DETECTED_EFFECT",
+      "preparation": "Garlic oil; caffeine phenotyping in elderly volunteers"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-17468862-compound-observation",
+    "source": {
+      "id": "PubMed:17468862",
+      "sourceName": "PubMed",
+      "sourceRecordId": "17468862",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/17468862/",
+      "retrievedAt": "2026-09-07T19:04:06.934Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Unexpected effect of concomitantly administered curcumin on the pharmacokinetics of talinolol in healthy Chinese volunteers.",
+      "authors": [
+        "He Juan",
+        "Bernd Terhaag",
+        "Zang Cong",
+        "Zhang Bi-Kui",
+        "Zhu Rong-Hua",
+        "Wang Feng",
+        "Su Fen-Li",
+        "Song Juan",
+        "Tang Jing",
+        "Peng Wen-Xing"
+      ],
+      "journal": "European journal of clinical pharmacology",
+      "publicationYear": 2007,
+      "pmid": "17468862",
+      "doi": "10.1007/s00228-007-0298-0",
+      "contentHash": "a9d173bd92a1eb9d7d958ffb5de6d89464109f1e8ccdb5ae31fe2e2a229e6582"
+    },
+    "subject": {
+      "id": "pubchem:969516",
+      "label": "Curcumin",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "COMPOUND_DRUG_OBSERVATION",
+    "object": {
+      "id": "talinolol",
+      "label": "Talinolol",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The controlled study reported reduced talinolol exposure during isolated curcumin administration. This cannot be equated with a whole-turmeric product.",
+    "limitations": "Isolated compound, study-specific formulation and population. No whole-herb interaction or missing mechanism edge is inferred.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-20393696-compound-observation",
+    "source": {
+      "id": "PubMed:20393696",
+      "sourceName": "PubMed",
+      "sourceRecordId": "20393696",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20393696/",
+      "retrievedAt": "2026-09-07T19:04:06.935Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Effect of glycyrrhizin on the activity of CYP3A enzyme in humans.",
+      "authors": [
+        "Jiang-Hua Tu",
+        "Yi-Jing He",
+        "Yao Chen",
+        "Lan Fan",
+        "Wei Zhang",
+        "Zhi-Rong Tan",
+        "Yuan-Fei Huang",
+        "Dong Guo",
+        "Dong-Li Hu",
+        "Dan Wang",
+        "Hong-Hao Zhou"
+      ],
+      "journal": "European journal of clinical pharmacology",
+      "publicationYear": 2010,
+      "pmid": "20393696",
+      "doi": "10.1007/s00228-010-0814-5",
+      "contentHash": "d20b77ebda25e940417bcbf3da3fa8eb532ab5814dd64446dc1d30989cb5fd5d"
+    },
+    "subject": {
+      "id": "glycyrrhizin",
+      "label": "Glycyrrhizin",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "COMPOUND_DRUG_OBSERVATION",
+    "object": {
+      "id": "midazolam",
+      "label": "Midazolam",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The randomized crossover study reported reduced midazolam exposure after glycyrrhizin. This isolated-compound finding cannot be equated with whole licorice.",
+    "limitations": "Isolated compound, study-specific formulation and population. No whole-herb interaction or missing mechanism edge is inferred.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-12891227-alprazolam-substrate",
+    "source": {
+      "id": "PubMed:12891227",
+      "sourceName": "PubMed",
+      "sourceRecordId": "12891227",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12891227/",
+      "retrievedAt": "2026-09-07T19:04:40.684Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers.",
+      "authors": [
+        "John S Markowitz",
+        "C Lindsay Devane",
+        "Kenneth D Chavin",
+        "Robin M Taylor",
+        "Ying Ruan",
+        "Jennifer L Donovan"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "publicationYear": 2003,
+      "pmid": "12891227",
+      "doi": "10.1016/S0009-9236(03)00148-6",
+      "contentHash": "53f3f39755b7c482dfb7b988699ebc2e7c1c44136abc58aec0ab0177709f13cf"
+    },
+    "subject": {
+      "id": "alprazolam",
+      "label": "Alprazolam",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "predicate": "DRUG_IS_SUBSTRATE_OF",
+    "object": {
+      "id": "CYP3A4",
+      "label": "CYP3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The study identifies Alprazolam as a probe substrate for CYP3A4.",
+    "limitations": "Probe-substrate identity does not establish a clinically meaningful herb interaction.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-12891227-dextromethorphan-substrate",
+    "source": {
+      "id": "PubMed:12891227",
+      "sourceName": "PubMed",
+      "sourceRecordId": "12891227",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12891227/",
+      "retrievedAt": "2026-09-07T19:04:40.684Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "Ginger nifedipine and garlic CYP probe clinical research",
+      "title": "Effects of garlic (Allium sativum L.) supplementation on cytochrome P450 2D6 and 3A4 activity in healthy volunteers.",
+      "authors": [
+        "John S Markowitz",
+        "C Lindsay Devane",
+        "Kenneth D Chavin",
+        "Robin M Taylor",
+        "Ying Ruan",
+        "Jennifer L Donovan"
+      ],
+      "journal": "Clinical pharmacology and therapeutics",
+      "publicationYear": 2003,
+      "pmid": "12891227",
+      "doi": "10.1016/S0009-9236(03)00148-6",
+      "contentHash": "53f3f39755b7c482dfb7b988699ebc2e7c1c44136abc58aec0ab0177709f13cf"
+    },
+    "subject": {
+      "id": "dextromethorphan",
+      "label": "Dextromethorphan",
+      "kind": "drug",
+      "identifiers": {}
+    },
+    "predicate": "DRUG_IS_SUBSTRATE_OF",
+    "object": {
+      "id": "CYP2D6",
+      "label": "CYP2D6",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The study identifies Dextromethorphan as a probe substrate for CYP2D6.",
+    "limitations": "Probe-substrate identity does not establish a clinically meaningful herb interaction.",
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "candidate-28774812-glabridin-CYP3A4",
+    "source": {
+      "id": "PubMed:28774812",
+      "sourceName": "PubMed",
+      "sourceRecordId": "28774812",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28774812/",
+      "retrievedAt": "2026-09-07T19:04:06.934Z",
+      "usageNote": "PubMed bibliographic metadata; abstracts may be copyrighted. See https://www.ncbi.nlm.nih.gov/About/disclaimer.html",
+      "importMethod": "NCBI EFetch metadata + assistant-prepared candidate summary; human review pending",
+      "query": "PolyGuard explicit herb compound drug research candidates",
+      "title": "Cytochrome P450 inhibition by three licorice species and fourteen licorice constituents.",
+      "authors": [
+        "Guannan Li",
+        "Charlotte Simmler",
+        "Luying Chen",
+        "Dejan Nikolic",
+        "Shao-Nong Chen",
+        "Guido F Pauli",
+        "Richard B van Breemen"
+      ],
+      "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+      "publicationYear": 2017,
+      "pmid": "28774812",
+      "doi": "10.1016/j.ejps.2017.07.034",
+      "contentHash": "1d807c76d7da31385c6a32ebfe0cc8f1c072893ef918ea848b1cd47bf8879976"
+    },
+    "subject": {
+      "id": "glabridin",
+      "label": "Glabridin",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_INHIBITS_TARGET",
+    "object": {
+      "id": "CYP3A4",
+      "label": "CYP3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "The laboratory study reports competitive CYP3A4 inhibition by glabridin. No Ki or IC50 is populated from an unavailable numerical assay table.",
+    "limitations": "In-vitro result only. No clinical interaction, achievable concentration, or whole-licorice effect is inferred.",
+    "timingRelevant": false,
+    "revision": 0
+  }
+]

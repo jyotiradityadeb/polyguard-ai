@@ -1,0 +1,331 @@
+[
+  {
+    "id": "chembl-activity-2253497",
+    "source": {
+      "id": "ChEMBL:2253497",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "2253497",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/2253497.json",
+      "retrievedAt": "2026-09-07T19:08:42.214Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "c95138973332bf830da6d47f46e769e0d25a7ae54e2842147b995653abe753a4",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Inhibition of human recombinant CYP3A4",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL999389",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "IC50",
+      "standardRelation": "=",
+      "standardValue": 16300,
+      "standardUnits": "nM",
+      "pChemblValue": 4.79,
+      "documentId": "CHEMBL1141678"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "chembl-activity-4961300",
+    "source": {
+      "id": "ChEMBL:4961300",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "4961300",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/4961300.json",
+      "retrievedAt": "2026-09-07T19:08:42.219Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "701928a792a79c70d0bf6bb9e00d63b81ba577a5217cddaca93f9f3445a45298",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "PUBCHEM_BIOASSAY: qHTS Assay for Activators of Cytochrome P450 3A4. (Class of assay: confirmatory) [Related pubchem assays: 410 ]",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL1614108",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "Potency",
+      "standardRelation": "=",
+      "standardValue": 15848.9,
+      "standardUnits": "nM",
+      "pChemblValue": 4.8,
+      "documentId": "CHEMBL1201862"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "chembl-activity-4969546",
+    "source": {
+      "id": "ChEMBL:4969546",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "4969546",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/4969546.json",
+      "retrievedAt": "2026-09-07T19:08:42.219Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "c49fee554ab8500939ef22200b6c369d2f0c3088e2cafcf08e6cbe127d1e1abc",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "PUBCHEM_BIOASSAY: qHTS Assay for Activators of Cytochrome P450 3A4. (Class of assay: confirmatory) [Related pubchem assays: 410 ]",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL1614108",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "Potency",
+      "standardRelation": "=",
+      "standardValue": 25118.9,
+      "standardUnits": "nM",
+      "pChemblValue": 4.6,
+      "documentId": "CHEMBL1201862"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "chembl-activity-5001962",
+    "source": {
+      "id": "ChEMBL:5001962",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "5001962",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/5001962.json",
+      "retrievedAt": "2026-09-07T19:08:42.219Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "5672eb9373d54140e6c8afdc84f04b24df2123b11eb01b2dc4d4f3ccf11ba67a",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "PUBCHEM_BIOASSAY: qHTS Assay for Activators of Cytochrome P450 3A4. (Class of assay: confirmatory) [Related pubchem assays: 410 ]",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL1614108",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "Potency",
+      "standardRelation": "=",
+      "standardValue": 12589.3,
+      "standardUnits": "nM",
+      "pChemblValue": 4.9,
+      "documentId": "CHEMBL1201862"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "chembl-activity-5026789",
+    "source": {
+      "id": "ChEMBL:5026789",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "5026789",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/5026789.json",
+      "retrievedAt": "2026-09-07T19:08:42.220Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "c2ee31bafd0bf3691d976be12714c5fa2f24fb42f6ae82c95446793c7512df42",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "PUBCHEM_BIOASSAY: qHTS Assay for Inhibitors and Substrates of Cytochrome P450 3A4. (Class of assay: confirmatory) [Related pubchem assays: 410 ]",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL1613886",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "Potency",
+      "standardRelation": "=",
+      "standardValue": 15848.9,
+      "standardUnits": "nM",
+      "pChemblValue": 4.8,
+      "documentId": "CHEMBL1201862"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "chembl-activity-5034846",
+    "source": {
+      "id": "ChEMBL:5034846",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "5034846",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/5034846.json",
+      "retrievedAt": "2026-09-07T19:08:42.220Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "aa1c768d519c51a467bf4ce4ea185f1f00405d8527459cece4c1ae019aaf9bc1",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "PUBCHEM_BIOASSAY: qHTS Assay for Inhibitors and Substrates of Cytochrome P450 3A4. (Class of assay: confirmatory) [Related pubchem assays: 410 ]",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL1613886",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "Potency",
+      "standardRelation": "=",
+      "standardValue": 25118.9,
+      "standardUnits": "nM",
+      "pChemblValue": 4.6,
+      "documentId": "CHEMBL1201862"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  },
+  {
+    "id": "chembl-activity-5070532",
+    "source": {
+      "id": "ChEMBL:5070532",
+      "sourceName": "ChEMBL",
+      "sourceRecordId": "5070532",
+      "sourceUrl": "https://www.ebi.ac.uk/chembl/api/data/activity/5070532.json",
+      "retrievedAt": "2026-09-07T19:08:42.220Z",
+      "usageNote": "ChEMBL data: CC BY-SA 3.0; retain attribution and share-alike terms. Source record ID and API URL identify this activity.",
+      "importMethod": "ChEMBL activity API JSON",
+      "authors": [],
+      "contentHash": "fdae3a28a2b9039677cca19af046ac9ba910413d51414b595568098750cd061f",
+      "query": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL140&target_chembl_id=CHEMBL340&limit=20"
+    },
+    "subject": {
+      "id": "CHEMBL140",
+      "label": "CHEMBL140",
+      "kind": "phytochemical",
+      "identifiers": {}
+    },
+    "predicate": "PHYTOCHEMICAL_TESTED_AGAINST_TARGET",
+    "object": {
+      "id": "CHEMBL340",
+      "label": "Cytochrome P450 3A4",
+      "kind": "target",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "PUBCHEM_BIOASSAY: qHTS Assay for Inhibitors and Substrates of Cytochrome P450 3A4. (Class of assay: confirmatory) [Related pubchem assays: 410 ]",
+    "limitations": "Assay existence, activity value, and target association are not a clinical interaction. Assay design and target confidence require review.",
+    "assay": {
+      "assayId": "CHEMBL1613886",
+      "targetId": "CHEMBL340",
+      "targetName": "Cytochrome P450 3A4",
+      "assayType": "A",
+      "standardType": "Potency",
+      "standardRelation": "=",
+      "standardValue": 12589.3,
+      "standardUnits": "nM",
+      "pChemblValue": 4.9,
+      "documentId": "CHEMBL1201862"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  }
+]

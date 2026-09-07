@@ -1,0 +1,1104 @@
+{
+  "entities": [
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "scientificName": "Withania somnifera",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Indian ginseng"
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "scientificName": "Curcuma longa",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Haldi"
+      ]
+    },
+    {
+      "id": "giloy",
+      "name": "Giloy",
+      "scientificName": "Tinospora cordifolia",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Guduchi"
+      ]
+    },
+    {
+      "id": "tulsi",
+      "name": "Tulsi",
+      "scientificName": "Ocimum tenuiflorum",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Holy basil"
+      ]
+    },
+    {
+      "id": "amla",
+      "name": "Amla",
+      "scientificName": "Phyllanthus emblica",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Indian gooseberry"
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "scientificName": "Zingiber officinale",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Adrak"
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "scientificName": "Allium sativum",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Lahsun"
+      ]
+    },
+    {
+      "id": "fenugreek",
+      "name": "Fenugreek",
+      "scientificName": "Trigonella foenum-graecum",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Methi"
+      ]
+    },
+    {
+      "id": "licorice",
+      "name": "Licorice",
+      "scientificName": "Glycyrrhiza glabra",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Liquorice"
+      ]
+    },
+    {
+      "id": "neem",
+      "name": "Neem",
+      "scientificName": "Azadirachta indica",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Nimba"
+      ]
+    },
+    {
+      "id": "brahmi",
+      "name": "Brahmi",
+      "scientificName": "Bacopa monnieri",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Bacopa"
+      ]
+    },
+    {
+      "id": "shatavari",
+      "name": "Shatavari",
+      "scientificName": "Asparagus racemosus",
+      "kind": "herb",
+      "category": "Medicinal herb",
+      "aliases": [
+        "Shatavar"
+      ]
+    },
+    {
+      "id": "metformin",
+      "name": "Metformin",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Glucophage"
+      ]
+    },
+    {
+      "id": "atorvastatin",
+      "name": "Atorvastatin",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Lipitor"
+      ]
+    },
+    {
+      "id": "warfarin",
+      "name": "Warfarin",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Coumadin"
+      ]
+    },
+    {
+      "id": "amlodipine",
+      "name": "Amlodipine",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Norvasc"
+      ]
+    },
+    {
+      "id": "losartan",
+      "name": "Losartan",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Cozaar"
+      ]
+    },
+    {
+      "id": "lisinopril",
+      "name": "Lisinopril",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Zestril"
+      ]
+    },
+    {
+      "id": "aspirin",
+      "name": "Aspirin",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Acetylsalicylic acid"
+      ]
+    },
+    {
+      "id": "clopidogrel",
+      "name": "Clopidogrel",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Plavix"
+      ]
+    },
+    {
+      "id": "glimepiride",
+      "name": "Glimepiride",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Amaryl"
+      ]
+    },
+    {
+      "id": "levothyroxine",
+      "name": "Levothyroxine",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Synthroid"
+      ]
+    },
+    {
+      "id": "simvastatin",
+      "name": "Simvastatin",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Zocor"
+      ]
+    },
+    {
+      "id": "metoprolol",
+      "name": "Metoprolol",
+      "kind": "drug",
+      "category": "Prescription / conventional medicine",
+      "aliases": [
+        "Lopressor"
+      ]
+    },
+    {
+      "id": "demo-immunity",
+      "name": "Herbal Immunity Formula",
+      "kind": "product",
+      "category": "Demo formulation · illustrative ingredients",
+      "aliases": [
+        "Immunity formula"
+      ],
+      "ingredients": [
+        "tulsi",
+        "giloy",
+        "turmeric",
+        "amla"
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "demo-pathway-1",
+      "name": "Demo pathway α",
+      "type": "Synthetic pathway · no biological claim"
+    },
+    {
+      "id": "demo-pathway-2",
+      "name": "Demo pathway β",
+      "type": "Synthetic pathway · no biological claim"
+    }
+  ],
+  "phytochemicals": [],
+  "evidence": [
+    {
+      "id": "DEMO-EVIDENCE-001",
+      "herbId": "ashwagandha",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "MODERATE",
+      "evidenceGrade": "E",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-002",
+      "herbId": "ashwagandha",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "HIGH",
+      "evidenceGrade": "D",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-003",
+      "herbId": "turmeric",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "LOW",
+      "evidenceGrade": "U",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-004",
+      "herbId": "turmeric",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "UNKNOWN",
+      "evidenceGrade": "C",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-005",
+      "herbId": "giloy",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "MODERATE",
+      "evidenceGrade": "E",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-006",
+      "herbId": "giloy",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "HIGH",
+      "evidenceGrade": "D",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-007",
+      "herbId": "tulsi",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "LOW",
+      "evidenceGrade": "U",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-008",
+      "herbId": "tulsi",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "UNKNOWN",
+      "evidenceGrade": "C",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-009",
+      "herbId": "amla",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "MODERATE",
+      "evidenceGrade": "E",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-010",
+      "herbId": "amla",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "HIGH",
+      "evidenceGrade": "D",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-011",
+      "herbId": "ginger",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "LOW",
+      "evidenceGrade": "U",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-012",
+      "herbId": "ginger",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "UNKNOWN",
+      "evidenceGrade": "C",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-013",
+      "herbId": "garlic",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "MODERATE",
+      "evidenceGrade": "E",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-014",
+      "herbId": "garlic",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "HIGH",
+      "evidenceGrade": "D",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-015",
+      "herbId": "fenugreek",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "LOW",
+      "evidenceGrade": "U",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-016",
+      "herbId": "fenugreek",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "UNKNOWN",
+      "evidenceGrade": "C",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-017",
+      "herbId": "licorice",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "MODERATE",
+      "evidenceGrade": "E",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-018",
+      "herbId": "licorice",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "HIGH",
+      "evidenceGrade": "D",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-019",
+      "herbId": "neem",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "LOW",
+      "evidenceGrade": "U",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-020",
+      "herbId": "neem",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "UNKNOWN",
+      "evidenceGrade": "C",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-021",
+      "herbId": "brahmi",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "MODERATE",
+      "evidenceGrade": "E",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-022",
+      "herbId": "brahmi",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "HIGH",
+      "evidenceGrade": "D",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-023",
+      "herbId": "shatavari",
+      "drugId": "metformin",
+      "pathwayId": "demo-pathway-1",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "LOW",
+      "evidenceGrade": "U",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    },
+    {
+      "id": "DEMO-EVIDENCE-024",
+      "herbId": "shatavari",
+      "drugId": "atorvastatin",
+      "pathwayId": "demo-pathway-2",
+      "interactionType": "Synthetic shared-pathway example",
+      "potentialConcern": "UNKNOWN",
+      "evidenceGrade": "C",
+      "studyType": "Synthetic fixture; no study was performed",
+      "summary": "This record demonstrates the evidence workflow only. The pairing, pathway, concern, and evidence grade are simulated and do not establish an interaction between these substances.",
+      "notes": "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
+      "validated": false,
+      "isDemo": true
+    }
+  ],
+  "links": [
+    {
+      "id": "DEMO-EVIDENCE-001-herb",
+      "source": "ashwagandha",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-001"
+    },
+    {
+      "id": "DEMO-EVIDENCE-001-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-001"
+    },
+    {
+      "id": "DEMO-EVIDENCE-001-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-001",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-001"
+    },
+    {
+      "id": "DEMO-EVIDENCE-002-herb",
+      "source": "ashwagandha",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-002"
+    },
+    {
+      "id": "DEMO-EVIDENCE-002-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-002"
+    },
+    {
+      "id": "DEMO-EVIDENCE-002-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-002",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-002"
+    },
+    {
+      "id": "DEMO-EVIDENCE-003-herb",
+      "source": "turmeric",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-003"
+    },
+    {
+      "id": "DEMO-EVIDENCE-003-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-003"
+    },
+    {
+      "id": "DEMO-EVIDENCE-003-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-003",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-003"
+    },
+    {
+      "id": "DEMO-EVIDENCE-004-herb",
+      "source": "turmeric",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-004"
+    },
+    {
+      "id": "DEMO-EVIDENCE-004-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-004"
+    },
+    {
+      "id": "DEMO-EVIDENCE-004-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-004",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-004"
+    },
+    {
+      "id": "DEMO-EVIDENCE-005-herb",
+      "source": "giloy",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-005"
+    },
+    {
+      "id": "DEMO-EVIDENCE-005-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-005"
+    },
+    {
+      "id": "DEMO-EVIDENCE-005-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-005",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-005"
+    },
+    {
+      "id": "DEMO-EVIDENCE-006-herb",
+      "source": "giloy",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-006"
+    },
+    {
+      "id": "DEMO-EVIDENCE-006-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-006"
+    },
+    {
+      "id": "DEMO-EVIDENCE-006-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-006",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-006"
+    },
+    {
+      "id": "DEMO-EVIDENCE-007-herb",
+      "source": "tulsi",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-007"
+    },
+    {
+      "id": "DEMO-EVIDENCE-007-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-007"
+    },
+    {
+      "id": "DEMO-EVIDENCE-007-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-007",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-007"
+    },
+    {
+      "id": "DEMO-EVIDENCE-008-herb",
+      "source": "tulsi",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-008"
+    },
+    {
+      "id": "DEMO-EVIDENCE-008-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-008"
+    },
+    {
+      "id": "DEMO-EVIDENCE-008-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-008",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-008"
+    },
+    {
+      "id": "DEMO-EVIDENCE-009-herb",
+      "source": "amla",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-009"
+    },
+    {
+      "id": "DEMO-EVIDENCE-009-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-009"
+    },
+    {
+      "id": "DEMO-EVIDENCE-009-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-009",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-009"
+    },
+    {
+      "id": "DEMO-EVIDENCE-010-herb",
+      "source": "amla",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-010"
+    },
+    {
+      "id": "DEMO-EVIDENCE-010-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-010"
+    },
+    {
+      "id": "DEMO-EVIDENCE-010-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-010",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-010"
+    },
+    {
+      "id": "DEMO-EVIDENCE-011-herb",
+      "source": "ginger",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-011"
+    },
+    {
+      "id": "DEMO-EVIDENCE-011-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-011"
+    },
+    {
+      "id": "DEMO-EVIDENCE-011-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-011",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-011"
+    },
+    {
+      "id": "DEMO-EVIDENCE-012-herb",
+      "source": "ginger",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-012"
+    },
+    {
+      "id": "DEMO-EVIDENCE-012-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-012"
+    },
+    {
+      "id": "DEMO-EVIDENCE-012-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-012",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-012"
+    },
+    {
+      "id": "DEMO-EVIDENCE-013-herb",
+      "source": "garlic",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-013"
+    },
+    {
+      "id": "DEMO-EVIDENCE-013-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-013"
+    },
+    {
+      "id": "DEMO-EVIDENCE-013-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-013",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-013"
+    },
+    {
+      "id": "DEMO-EVIDENCE-014-herb",
+      "source": "garlic",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-014"
+    },
+    {
+      "id": "DEMO-EVIDENCE-014-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-014"
+    },
+    {
+      "id": "DEMO-EVIDENCE-014-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-014",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-014"
+    },
+    {
+      "id": "DEMO-EVIDENCE-015-herb",
+      "source": "fenugreek",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-015"
+    },
+    {
+      "id": "DEMO-EVIDENCE-015-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-015"
+    },
+    {
+      "id": "DEMO-EVIDENCE-015-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-015",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-015"
+    },
+    {
+      "id": "DEMO-EVIDENCE-016-herb",
+      "source": "fenugreek",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-016"
+    },
+    {
+      "id": "DEMO-EVIDENCE-016-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-016"
+    },
+    {
+      "id": "DEMO-EVIDENCE-016-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-016",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-016"
+    },
+    {
+      "id": "DEMO-EVIDENCE-017-herb",
+      "source": "licorice",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-017"
+    },
+    {
+      "id": "DEMO-EVIDENCE-017-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-017"
+    },
+    {
+      "id": "DEMO-EVIDENCE-017-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-017",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-017"
+    },
+    {
+      "id": "DEMO-EVIDENCE-018-herb",
+      "source": "licorice",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-018"
+    },
+    {
+      "id": "DEMO-EVIDENCE-018-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-018"
+    },
+    {
+      "id": "DEMO-EVIDENCE-018-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-018",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-018"
+    },
+    {
+      "id": "DEMO-EVIDENCE-019-herb",
+      "source": "neem",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-019"
+    },
+    {
+      "id": "DEMO-EVIDENCE-019-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-019"
+    },
+    {
+      "id": "DEMO-EVIDENCE-019-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-019",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-019"
+    },
+    {
+      "id": "DEMO-EVIDENCE-020-herb",
+      "source": "neem",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-020"
+    },
+    {
+      "id": "DEMO-EVIDENCE-020-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-020"
+    },
+    {
+      "id": "DEMO-EVIDENCE-020-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-020",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-020"
+    },
+    {
+      "id": "DEMO-EVIDENCE-021-herb",
+      "source": "brahmi",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-021"
+    },
+    {
+      "id": "DEMO-EVIDENCE-021-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-021"
+    },
+    {
+      "id": "DEMO-EVIDENCE-021-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-021",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-021"
+    },
+    {
+      "id": "DEMO-EVIDENCE-022-herb",
+      "source": "brahmi",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-022"
+    },
+    {
+      "id": "DEMO-EVIDENCE-022-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-022"
+    },
+    {
+      "id": "DEMO-EVIDENCE-022-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-022",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-022"
+    },
+    {
+      "id": "DEMO-EVIDENCE-023-herb",
+      "source": "shatavari",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-023"
+    },
+    {
+      "id": "DEMO-EVIDENCE-023-drug",
+      "source": "metformin",
+      "target": "demo-pathway-1",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-023"
+    },
+    {
+      "id": "DEMO-EVIDENCE-023-source",
+      "source": "demo-pathway-1",
+      "target": "DEMO-EVIDENCE-023",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-023"
+    },
+    {
+      "id": "DEMO-EVIDENCE-024-herb",
+      "source": "shatavari",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-024"
+    },
+    {
+      "id": "DEMO-EVIDENCE-024-drug",
+      "source": "atorvastatin",
+      "target": "demo-pathway-2",
+      "relationship": "demo association",
+      "evidenceId": "DEMO-EVIDENCE-024"
+    },
+    {
+      "id": "DEMO-EVIDENCE-024-source",
+      "source": "demo-pathway-2",
+      "target": "DEMO-EVIDENCE-024",
+      "relationship": "documented by demo fixture",
+      "evidenceId": "DEMO-EVIDENCE-024"
+    }
+  ]
+}

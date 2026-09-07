@@ -1,0 +1,49 @@
+[
+  {
+    "id": "pubchem-identity-969516",
+    "source": {
+      "id": "PubChem:969516",
+      "sourceName": "PubChem",
+      "sourceRecordId": "969516",
+      "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/969516",
+      "retrievedAt": "2026-09-07T19:04:43.262Z",
+      "usageNote": "PubChem aggregates contributed records; retain attribution and check contributor-specific usage terms. Identity facts only.",
+      "importMethod": "PUG REST property JSON",
+      "authors": [],
+      "contentHash": "54db7fbedde57cdec7d34334cee049cd8e72af295732445d7f0f56b3fec40b9d"
+    },
+    "subject": {
+      "id": "pubchem:969516",
+      "label": "Curcumin",
+      "kind": "phytochemical",
+      "identifiers": {
+        "pubchemCID": "969516"
+      }
+    },
+    "predicate": "CHEMICAL_IDENTITY",
+    "object": {
+      "id": "source:pubchem:969516",
+      "label": "PubChem CID 969516",
+      "kind": "source",
+      "identifiers": {}
+    },
+    "status": "REVIEW_PENDING",
+    "studyDesign": "UNSPECIFIED",
+    "evidenceGrade": "U",
+    "summary": "Canonical chemical identity imported from PubChem. No plant occurrence, target activity, or drug interaction is inferred.",
+    "limitations": "Chemical similarity and chemical identity do not establish biological activity.",
+    "chemical": {
+      "CID": 969516,
+      "Title": "Curcumin",
+      "IUPACName": "(1E,6E)-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,6-diene-3,5-dione",
+      "MolecularFormula": "C21H20O6",
+      "MolecularWeight": "368.4",
+      "ConnectivitySMILES": "COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC(=C(C=C2)O)OC)O",
+      "SMILES": "COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O",
+      "InChI": "InChI=1S/C21H20O6/c1-26-20-11-14(5-9-18(20)24)3-7-16(22)13-17(23)8-4-15-6-10-19(25)21(12-15)27-2/h3-12,24-25H,13H2,1-2H3/b7-3+,8-4+",
+      "InChIKey": "VFLDPWHFBUODDF-FCXRPNKRSA-N"
+    },
+    "timingRelevant": false,
+    "revision": 0
+  }
+]

@@ -1,0 +1,11 @@
+import {it,expect} from 'vitest';
+import data from '../data/knowledge.json';
+import {validateKnowledge} from '../lib/evidence-validation';
+import {analyze} from '../lib/interaction-engine';
+import {exploreCounterfactuals,graphScenario} from '../lib/counterfactual';
+const result=()=>analyze({drugs:['Metformin','Atorvastatin'],herbs:['Ashwagandha','Turmeric']},validateKnowledge(data));
+it('counts node participation and single exclusions',()=>{const r=exploreCounterfactuals(result());expect(r.participation.map(p=>p.signals)).toEqual([2,2]);expect(r.singles[0].signalsAfter).toBe(2);expect(r.singles[0].affectedEdges).toHaveLength(6);});
+it('finds exact multiple-node hitting set and preserves original',()=>{const original=result(),snapshot=JSON.stringify(original);const r=exploreCounterfactuals(original);expect(r.exact).toBe(true);expect(r.minimumCover?.scenario).toHaveLength(2);expect(r.minimumCover?.signalsAfter).toBe(0);expect(JSON.stringify(original)).toBe(snapshot);});
+it('does not propose prescription exclusions',()=>{const r=result();expect(()=>graphScenario(r,['metformin'])).toThrow();expect(exploreCounterfactuals(r).singles.every(s=>s.scenario.every(id=>r.regimen.herbs.some(h=>h.id===id)))).toBe(true);});
+it('keeps formulation exclusions from reappearing via decomposition',()=>{const r=analyze({drugs:['Metformin'],herbs:[],products:['Immunity formula']},validateKnowledge(data));const s=graphScenario(r,['turmeric']);expect(s.result.interactions.some(i=>i.herb.id==='turmeric')).toBe(false);});
+it('handles empty graph',()=>{const r=analyze({drugs:['Warfarin'],herbs:['Turmeric']},validateKnowledge(data));expect(exploreCounterfactuals(r).minimumCover).toBeNull();});
