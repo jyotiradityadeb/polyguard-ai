@@ -1,8 +1,8 @@
 import { db } from '@/lib/db';
 import { recordSchema,reviewRecord,type ScientificRecord } from '@/types/scientific';
 export async function getResearchRecords(){return (await db.researchRecord.findMany({orderBy:{id:'asc'}})).map(r=>recordSchema.parse({...JSON.parse(r.payload),status:r.status,revision:r.revision}));}
-export async function importRecords(records:ScientificRecord[]){
- const parsed=records.map(r=>recordSchema.parse({...r,status:'REVIEW_PENDING',review:undefined,revision:0,timingRelevant:false,recommendedIntervalFromSource:undefined}));
+export async function importRecords(records:ScientificRecord[], preserveStatus = false){
+ const parsed=records.map(r=>recordSchema.parse(preserveStatus ? r : {...r,status:'REVIEW_PENDING',review:undefined,revision:0,timingRelevant:false,recommendedIntervalFromSource:undefined}));
  return db.$transaction(async tx=>{
  let inserted=0;
  for(const r of parsed){

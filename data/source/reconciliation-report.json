@@ -1,0 +1,58 @@
+[
+  {
+    "recordId": "gold-imppat-turmeric-curcumin",
+    "label": "Curcumin",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-vfldpwhfbuoddf-fcxrpnkrsa-n",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-imppat-licorice-glabridin",
+    "label": "Glabridin",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-qhmrsaoqexjgcw-uhfffaoysa-n",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-imppat-a-h",
+    "label": "w",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-a",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-imppat-g-n",
+    "label": "g",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-e",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-imppat-g-r",
+    "label": "l",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-i",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-imppat-a-l",
+    "label": "a",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-|",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-chembl-curcumin-cyp3a4",
+    "label": "Curcumin",
+    "outcome": "MATCHED",
+    "canonicalId": "pubchem-969516",
+    "reason": "Identifier-backed match."
+  },
+  {
+    "recordId": "gold-pubmed-glabridin-cyp3a4",
+    "label": "Glabridin",
+    "outcome": "MATCHED",
+    "canonicalId": "inchi-qhmrsaoqexjgcw-uhfffaoysa-n",
+    "reason": "Identifier-backed match."
+  }
+]

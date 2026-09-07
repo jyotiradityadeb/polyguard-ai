@@ -105,6 +105,13 @@ export function analyze(raw: unknown, kb: Knowledge): Analysis {
         isDemo: records.some((e) => e.isDemo),
         path,
         edges,
+        signalType: records.some((e) => e.signalType === "DIRECT_CLINICAL")
+          ? "DIRECT_CLINICAL"
+          : records.some((e) => e.signalType === "MECHANISTIC")
+            ? "MECHANISTIC"
+            : records.some((e) => e.signalType === "EXPERIMENTAL")
+              ? "EXPERIMENTAL"
+              : "INSUFFICIENT",
       });
     }
   const selected = new Set([...herbs, ...drugs].map((e) => e.id));
@@ -169,6 +176,12 @@ export function analyze(raw: unknown, kb: Knowledge): Analysis {
       "Shared pathways are mechanistic signals, not proof of harm.",
     ],
     demo: interactions.some((i) => i.isDemo),
+    knowledgeBaseStatus: {
+      goldValidatedPaths: kb.evidence.filter((e) => e.validated && !e.isDemo).length,
+      mechanisticPaths: kb.evidence.filter((e) => e.signalType === "MECHANISTIC").length,
+      pendingCandidates: (kb.scientificRecords ?? []).filter((r) => r.status === "REVIEW_PENDING").length,
+      syntheticFixtures: kb.evidence.filter((e) => e.isDemo).length,
+    },
     researchCandidates:kb.scientificRecords?.filter(r=>r.status!=='REJECTED'&&[r.subject.id,r.object.id].some(id=>selected.has(id))),
   };
 }

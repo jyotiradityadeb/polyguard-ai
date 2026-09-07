@@ -28,6 +28,7 @@ import { flushSync } from "react-dom";
 import { PkSandbox } from "./pk-sandbox";
 import { discussionReport, reportHtml } from "@/lib/discussion-report";
 import { exploreCounterfactuals } from "@/lib/counterfactual";
+import { TimingExplorer } from "./timing-explorer";
 const EvidenceGraph = dynamic(() => import("./evidence-graph"), {
   ssr: false,
   loading: () => <p className="blank-note">Loading evidence graph…</p>,
@@ -87,7 +88,7 @@ export default function Workspace() {
       flushSync(() => {
         setResult(body);
         setSelected(null);
-        setTab("signals");
+        setTab(useDemo ? "signals" : "graph");
       });
       return body as Analysis;
     } catch (e) {
@@ -179,7 +180,7 @@ export default function Workspace() {
           <div>
             <strong>{includeDemo?"SYNTHETIC DEMO MODE — NOT SCIENTIFICALLY VALIDATED":"SCIENTIFIC DATA MODE — REVIEWED EVIDENCE ONLY"}</strong>
             <p>
-              {includeDemo?"Synthetic pairings, pathways, concern levels, and grades illustrate the product; they are not medical findings.":"Only human-reviewed interaction findings enter signal analysis. Imported literature and assays remain separate until reviewed. No validated paths may be available yet."}
+              {includeDemo?"Synthetic pairings, pathways, concern levels, and grades illustrate the product; they are not medical findings.":"Reviewed records and independently sourced mechanism edges enter analysis. Direct clinical signals remain separate from mechanistic paths."}
             </p>
           </div>
         </div>
@@ -314,7 +315,7 @@ export default function Workspace() {
                 Research Mode
               </button>
             </div>
-            {research&&<><ResearchOverview candidates={result?.researchCandidates}/><PkSandbox/></>}
+            {research&&<><ResearchOverview candidates={result?.researchCandidates}/><TimingExplorer records={result?.researchCandidates}/><PkSandbox/></>}
             {error && (
               <div role="alert" className="error">
                 <AlertCircle size={18} />
@@ -327,7 +328,7 @@ export default function Workspace() {
                   <Network size={42} />
                 </div>
                 <span className="eyebrow">FROM A LIST TO AN EXPLANATION</span>
-                <h2>Every signal should have a story.</h2>
+        <h2>Trace the evidence path.</h2>
                 <p>
                   Add your medicines and herbs to explore interaction signals,
                   the pathways behind them, and the quality of the evidence.
@@ -426,6 +427,15 @@ export default function Workspace() {
                     </small>
                   </div>
                 </div>
+                {result.knowledgeBaseStatus && (
+                  <div className="kb-status" aria-label="Knowledge base status">
+                    <strong>Knowledge base status</strong>
+                    <span><b>{result.knowledgeBaseStatus.goldValidatedPaths}</b> gold validated records</span>
+                    <span><b>{result.knowledgeBaseStatus.mechanisticPaths}</b> mechanistic paths</span>
+                    <span><b>{result.knowledgeBaseStatus.pendingCandidates}</b> pending candidates</span>
+                    <span><b>{result.knowledgeBaseStatus.syntheticFixtures}</b> synthetic fixtures</span>
+                  </div>
+                )}
                 <details className="load-detail">
                   <summary>How Interaction Load is calculated</summary>
                   <p>
@@ -521,6 +531,10 @@ export default function Workspace() {
                           </span>
                         )}
                         <div className="dimensions">
+                          <div>
+                            <span>Signal category</span>
+                            <b className="badge evidence">{i.signalType.replaceAll("_", " ")}</b>
+                          </div>
                           <div>
                             <span>Potential interaction concern</span>
                             <b

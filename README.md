@@ -6,9 +6,9 @@ A local, demoable biomedical informatics prototype. PolyGuard normalizes a mixed
 
 ## Scientific status
 
-**DEMO DATA — NOT SCIENTIFICALLY VALIDATED**
+**LIMITED GOLD DATASET — RESEARCH TOOLING, NOT CLINICAL VALIDATION**
 
-The seed contains **12 herbs, 12 medicines, one illustrative four-herb formulation, 24 synthetic interaction records, and two synthetic pathways**. There are **zero validated medical interaction records**. All interaction pairings, concern levels, evidence grades, and pathway associations are software fixtures. They are not claims about the named medicines or herbs. No publications, PMIDs, DOIs, clinical findings, CYP associations, or phytochemical relationships have been invented. There are no seeded phytochemicals.
+The seed contains **12 herbs, 12 medicines, one illustrative four-herb formulation, 24 synthetic regression fixtures, a limited IMPPAT gold subset, PubChem/ChEMBL identity and assay records, reviewed PubMed relationships, and composed multi-source mechanism paths**. Gold records retain source provenance and are limited to research demonstration scope. A mechanistic path is not a clinical interaction claim; direct human signals remain separately labelled.
 
 Catalog names and aliases identify entries; they do not establish pharmacological equivalence across preparations. Brahmi resolves specifically to the catalog's Bacopa monnieri entry. Brand aliases are illustrative and are not an exhaustive regional product catalog.
 
@@ -42,18 +42,18 @@ Run one server on port 3000 at a time. `npm start -- --port 3001` selects anothe
 
 ## One-minute demo
 
-1. Click **Try Demo**. This loads Metformin, Atorvastatin, Ashwagandha, and Turmeric and enables synthetic evidence.
-2. Click **Analyze Regimen**. See four synthetic pair signals and two shared synthetic pathways.
+1. Use **Scientific Data Mode** with Turmeric + Alprazolam to see a composed Curcumin → CYP3A4 → Alprazolam mechanism path.
+2. Click **Analyze Regimen**. The graph opens first and each edge retains its source provenance.
 3. Compare the separate concern and simulated evidence badges. One fixture has UNKNOWN concern, so the load is **Incomplete**, with eight known informational points.
 4. Open **Why was this flagged?**. Inspect the actual stored connection rows and click their nodes.
 5. Switch to **Research Mode** for botanical names, study type, source availability, and curation notes.
-6. Click **View in graph** to highlight the selected interaction's nodes and links.
+6. Click **View in graph** to highlight the selected interaction's nodes and links. Use Fit graph, Reset view, and Validated only in the graph toolbar.
 7. Try Warfarin with Turmeric: no record is available. The result states that missing evidence does not guarantee a risk-free combination.
 8. Add **Herbal Immunity Formula** to expand Amla, Giloy, Tulsi, and Turmeric. For another product, enter its ingredients manually.
 
 ## Architecture and modules
 
-Checkpoint **D5** is implemented incrementally: A (core flow), B (evidence paths and modes), C (React Flow graph), D1 (provenance/import infrastructure), D2 (review-pending source candidates and curation), D3 (counterfactual explorer), D4 (PK sandbox contract), and D5 (printable clinical discussion report). No validated interaction path or validated PK model is claimed or shipped.
+The research-grade upgrade adds canonical compound identity reconciliation, a limited gold dataset, multi-source graph assembly, direct-vs-mechanistic signal typing, graph-centered Scientific Mode, pathway bottleneck counterfactuals, optional AI candidate extraction, and an explicit unavailable PK state when a complete reviewed parameter set is absent.
 
 | Area           | Files                                                           | Responsibility                                                                             |
 | -------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -107,7 +107,7 @@ Schema validation rejects dangling or duplicate IDs, unknown formulation ingredi
 
 To add team-reviewed evidence, edit `data/knowledge.json`, assign real reviewed source metadata and correctly classified evidence, add only supported links, then run the tests and `npm run db:seed`. Seeding uses upserts and preserves unrelated existing database records. To retire a previously seeded record, explicitly mark it non-demo and unvalidated; deleting it from JSON alone does not delete the database row. Back up the database before curation changes.
 
-`scripts/create-demo.ts` generated the initial fixtures. It is a development-only generator; do not rerun it over curated evidence. Phytochemical records and relationship types are supported but deliberately left empty until supplied with evidence.
+`scripts/create-demo.ts` generated the initial fixtures. It is a development-only generator; do not rerun it over curated evidence. Gold records are supplied in `data/source/gold-records.ts`; the IMPPAT drop schema is documented in `data/source/imppat/README.md`, and `data/source/reconciliation-report.json` records identifier-backed matching outcomes.
 
 ### AI and privacy
 

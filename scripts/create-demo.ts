@@ -92,6 +92,8 @@ for (let i = 0; i < 24; i++) {
       "DEMO DATA — NOT SCIENTIFICALLY VALIDATED. Evidence grade is a UI fixture, not a classification of actual research.",
     validated: false,
     isDemo: true,
+    signalType: "INSUFFICIENT",
+    linkedNodeIds: [herbId, drugId, pathwayId],
   });
   kb.links.push(
     {

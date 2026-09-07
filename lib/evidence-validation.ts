@@ -49,6 +49,7 @@ export function validateKnowledge(raw: unknown): Knowledge {
       record.pathwayId,
       record.phytochemicalId,
       record.provenance?`source:${record.provenance.id}`:undefined,
+      ...record.linkedNodeIds,
     ]);
     if (!scope.has(link.source) || !scope.has(link.target))
       throw new Error("Graph link exceeds its evidence scope");

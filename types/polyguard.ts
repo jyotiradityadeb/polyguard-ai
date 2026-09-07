@@ -29,6 +29,8 @@ export const evidenceSchema = z.object({
   timingNotes: z.string().optional(),
   reviewedBy: z.string().optional(),
   reviewedAt: z.string().optional(),
+  signalType: z.enum(["DIRECT_CLINICAL", "MECHANISTIC", "EXPERIMENTAL", "INSUFFICIENT"]).default("DIRECT_CLINICAL"),
+  linkedNodeIds: z.array(z.string()).default([]),
   sourceTitle: z.string().optional(),
   publicationYear: z.number().int().optional(),
   pmid: z.string().regex(/^\d+$/).optional(),
@@ -102,6 +104,7 @@ export type Interaction = {
   isDemo: boolean;
   path: GraphNode[];
   edges: GraphEdge[];
+  signalType: Evidence["signalType"];
 };
 export type Analysis = {
   regimen: { drugs: Entity[]; herbs: Entity[]; products: Entity[] };
@@ -129,5 +132,11 @@ export type Analysis = {
   uncoveredPairs: string[];
   limitations: string[];
   demo: boolean;
+  knowledgeBaseStatus?: {
+    goldValidatedPaths: number;
+    mechanisticPaths: number;
+    pendingCandidates: number;
+    syntheticFixtures: number;
+  };
   researchCandidates?: z.infer<typeof recordSchema>[];
 };

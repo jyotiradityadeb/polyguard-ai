@@ -37,12 +37,14 @@ try {
         update: row,
       });
     }
-    for (const e of kb.evidence)
+    for (const e of kb.evidence) {
+      const stored = { ...e, linkedNodeIds: JSON.stringify(e.linkedNodeIds) };
       await tx.interactionEvidence.upsert({
         where: { id: e.id },
-        create: e,
-        update: e,
+        create: stored,
+        update: stored,
       });
+    }
     for (const l of kb.links)
       await tx.evidenceLink.upsert({
         where: { id: l.id },

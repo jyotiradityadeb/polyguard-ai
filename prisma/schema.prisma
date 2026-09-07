@@ -39,6 +39,17 @@ model Phytochemical {
  name String
  externalIds String
 }
+model ScientificCompound {
+ id String @id
+ canonicalName String
+ pubchemCid String?
+ chemblId String?
+ imppatId String?
+ inchiKey String?
+ smiles String?
+ synonyms String
+ identityStatus String @default("UNRESOLVED")
+}
 model InteractionEvidence {
  id String @id
  herbId String
@@ -53,6 +64,8 @@ model InteractionEvidence {
  notes String
  validated Boolean @default(false)
  isDemo Boolean @default(true)
+ signalType String @default("DIRECT_CLINICAL")
+ linkedNodeIds String @default("[]")
  sourceTitle String?
  publicationYear Int?
  pmid String?

@@ -7,6 +7,7 @@ import {
   MarkerType,
   Position,
 } from "@xyflow/react";
+import type { ReactFlowInstance } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { SourceDetails } from "./scientific-evidence";
 import type { Analysis } from "@/types/polyguard";
@@ -21,6 +22,8 @@ export default function EvidenceGraph({
 }) {
   const [inspected, setInspected] = useState<string | null>(null);
   const [edgeId,setEdgeId]=useState<string|null>(null);
+  const [validatedOnly,setValidatedOnly]=useState(false);
+  const [flow,setFlow]=useState<ReactFlowInstance | null>(null);
   const edgeDetail=result.graph.edges.find(e=>e.id===edgeId);
   const active = result.interactions.find((i) => i.id === selected);
   const colors: Record<string, string> = {
@@ -68,7 +71,7 @@ export default function EvidenceGraph({
             borderRadius: 10,
             width: 205,
             padding: 14,
-            opacity: active && !pathIds.has(n.id) ? 0.28 : 1,
+          opacity: active && !pathIds.has(n.id) ? 0.28 : 1,
           },
           ariaLabel: `${n.kind}: ${n.label}`,
         };
@@ -83,7 +86,7 @@ export default function EvidenceGraph({
         style: {
           stroke: edgeIds.has(e.id) ? "#087f75" : "#9bb6b1",
           strokeWidth: edgeIds.has(e.id) ? 2.5 : 1.3,
-          opacity: active && !edgeIds.has(e.id) ? 0.12 : 0.85,
+          opacity: validatedOnly && e.status !== "VALIDATED" ? 0.08 : active && !edgeIds.has(e.id) ? 0.12 : 0.85,
         },
         labelStyle: { fontSize: 10 },
         labelBgStyle: { fill: "#fff" },
@@ -91,7 +94,7 @@ export default function EvidenceGraph({
     };
     // colors are fixed presentation tokens.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [result, active]);
+  }, [result, active, validatedOnly]);
   const detail = result.graph.nodes.find((n) => n.id === inspected);
   if (!result.graph.nodes.length)
     return (
@@ -105,7 +108,12 @@ export default function EvidenceGraph({
       <div className="graph-toolbar">
         <div>
           <h3>Mechanism-aware evidence graph</h3>
-          <p>Only connections relevant to this regimen are shown.</p>
+          <p>Validated edges retain source provenance. A path is mechanistic evidence unless a direct human signal is separately shown.</p>
+        </div>
+        <div className="graph-actions">
+          <button type="button" onClick={() => flow?.fitView({ padding: 0.18 })}>Fit graph</button>
+          <button type="button" onClick={() => { setInspected(null); setEdgeId(null); onSelect(null); flow?.fitView({ padding: 0.18 }); }}>Reset view</button>
+          <button type="button" className={validatedOnly ? "active" : ""} onClick={() => setValidatedOnly((v) => !v)}>{validatedOnly ? "Show all" : "Validated only"}</button>
         </div>
         <label>
           Highlight interaction
@@ -135,6 +143,7 @@ export default function EvidenceGraph({
           nodesConnectable={false}
           onNodeClick={(_, node) => setInspected(node.id)}
           onEdgeClick={(_,edge)=>setEdgeId(edge.id)}
+          onInit={setFlow}
         >
           <Background color="#d8e3e2" gap={20} />
           <Controls showInteractive={false} />

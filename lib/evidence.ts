@@ -26,7 +26,7 @@ export async function getKnowledge() {
     })),
     evidence: evidence.map((e) =>
       Object.fromEntries(
-        Object.entries(e).map(([k, v]) => [k, v === null ? undefined : v]),
+        Object.entries(e).map(([k, v]) => [k, k === "linkedNodeIds" ? JSON.parse(String(v ?? "[]")) : v === null ? undefined : v]),
       ),
     ),
     links,

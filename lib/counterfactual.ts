@@ -36,5 +36,6 @@ export function exploreCounterfactuals(original:Analysis){
   visit(0,[]);
   if(bestIds){const winner=graphScenario(original,bestIds);frontier.push(winner);if(winner.signalsAfter===0){minimumCover=winner;break;}}
  }
- return {disclaimer:counterfactualDisclaimer,participation:singles.map(s=>({herbId:s.scenario[0],name:s.names[0],signals:s.signalsBefore-s.signalsAfter,edges:s.affectedEdges.length})),singles,frontier,minimumCover,exact,enumerated,searchLimit:exact?16:3};
+ const centrality = original.graph.nodes.filter(n=>['pathway','phytochemical'].includes(n.kind)).map(n=>({id:n.id,name:n.label,kind:n.kind,edges:original.graph.edges.filter(e=>e.source===n.id||e.target===n.id).length,signalCount:new Set(original.graph.edges.filter(e=>e.source===n.id||e.target===n.id).map(e=>e.evidenceId)).size})).sort((a,b)=>b.signalCount-a.signalCount||b.edges-a.edges);
+ return {disclaimer:counterfactualDisclaimer,participation:singles.map(s=>{const affected=original.interactions.filter(i=>s.scenario.includes(i.herb.id)); const nodes=[...new Set(affected.flatMap(i=>i.path.filter(n=>['pathway','phytochemical'].includes(n.kind)).map(n=>n.label)))]; return {herbId:s.scenario[0],name:s.names[0],signals:s.signalsBefore-s.signalsAfter,edges:s.affectedEdges.length,mechanismNodes:nodes,signalTypes:[...new Set(affected.flatMap(i=>i.evidence.map(e=>e.signalType)))]};}),bottlenecks:centrality.slice(0,5),singles,frontier,minimumCover,exact,enumerated,searchLimit:exact?16:3};
 }
